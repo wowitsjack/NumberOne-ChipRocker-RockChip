@@ -102,7 +102,7 @@ def main():
         MAGIC_OFFSET = int(custom_offset, 0)  # Allow for hexadecimal input
         
         # Ask to perform optional alignment check for RK3XXX (and more?) devices.
-        misalign_check = input(colored("(EXPERIMENTAL) Some RK Devices can have partition alignment issues. Do you want to enable optional alignment pass? (Y/n): ", 'magenta')).strip().lower() == 'y'
+        misalign_check = input(colored("(EXPERIMENTAL) Some RK Devices can have partition alignment issues. Do you want to enable optional alignment pass? (Y/n): ", 'magenta')).strip().lower() == 'n'
     
         unit = input("📏 What unit of size would you like to use? (b/kb/mb/gb, default: b): ").strip().lower() or 'b'
         size_str = input(f"🔢 How many {unit.upper()} would you like to pull from the device? (default: 8): ") or '8'
