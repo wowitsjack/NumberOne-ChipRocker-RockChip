@@ -5,11 +5,11 @@
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Maintenance](https://img.shields.io/badge/Maintenance-Active-green.svg)
 
-![Demo GIF](images/demo.gif)
+![Demo GIF](images/demo.jpg)
 
 ## Overview
 
-The **ChipRocker Wizard** is an interface system tailored for RockChip devices. It facilitates interaction for tasks such as dumping, writing, and general interfacing with RKXXX devices.
+The **NumberOne-ChipRocker Wizard** is an interface system tailored for RockChip devices. It facilitates interaction for tasks such as dumping, writing, and general interfacing with RKXXX devices.
 
 ## Features
 
@@ -57,9 +57,7 @@ $ pip install tqdm termcolor
 
 ## Technical Overview
 
-The ChipRocker Wizard is designed with focus on making it easy to interface with RockChip devices. 
-
-It orchestrates command-line executions to `rkflashtool`, ensuring accurate and efficient data transfers, and multi-part dumping operations.
+It orchestrates command-line executions to `rkflashtool`, eallowing for automated data read/writing, efficient data transfers, and multi-part dumping operations.
 
 **Note:** Ensure your device is in LOADER mode for flash I/O operations.
 
