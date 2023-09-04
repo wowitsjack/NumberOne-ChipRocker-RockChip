@@ -35,7 +35,7 @@ The **NumberOne-ChipRocker Wizard** is an interface system tailored for RockChip
 
 1. Clone the repository:
 ```bash
-$ git clone https://github.com/wowitsjack/NumberOne-ChipRocker/edit/main/README.md
+$ git clone https://github.com/wowitsjack/NumberOne-ChipRocker/
 ```
 
 2. Navigate to the directory:
@@ -55,15 +55,15 @@ To install all necessary packages, use:
 $ pip3 install tqdm termcolor
 ```
 
-## Technical Overview
-
-It orchestrates command-line executions to `rkflashtool`, eallowing for automated data read/writing, efficient data transfers, and multi-part dumping operations.
-
-**Note:** Ensure your device is in LOADER mode for flash I/O operations.
-
 ## Usage
 
 To use the ChipRocker Wizard, run the script:
 ```bash
 $ sudo -E python3 chip_rocker_script.py
 ```
+
+## Technical Overview
+
+It orchestrates command-line executions to `rkflashtool`, eallowing for automated data read/writing, efficient data transfers, and multi-part dumping operations.
+
+**Note:** Ensure your device is in LOADER mode for flash I/O operations.
