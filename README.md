@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Maintenance](https://img.shields.io/badge/Maintenance-Active-green.svg)
 
-![Demo GIF](images/demo.jpg)
+(images/demo.jpg)
 
 ## Overview
 
