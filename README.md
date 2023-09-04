@@ -48,11 +48,11 @@ $ cd NumberOne-ChipRocker/
 $ pip install -r requirements.txt
 ```
 
-### Manually Requirements
+### Manually Install Requirements (Optional)
 
 To install all necessary packages, use:
 ```bash
-$ pip install tqdm termcolor
+$ pip3 install tqdm termcolor
 ```
 
 ## Technical Overview
