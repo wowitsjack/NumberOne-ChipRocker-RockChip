@@ -45,6 +45,7 @@ $ cd NumberOne-ChipRocker/
 
 3. Install the required packages:
 ```bash
+$ sudo apt install rkflashtool
 $ pip install -r requirements.txt
 ```
 
