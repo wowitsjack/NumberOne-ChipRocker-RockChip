@@ -6,7 +6,7 @@
 ![Maintenance](https://img.shields.io/badge/Maintenance-Active-green.svg)
 
 ![Demo dumping operation.](demo.jpg)
-
+ 
 ## Overview
 
 The **NumberOne-ChipRocker Wizard** is an interface system tailored for RockChip devices. It facilitates interaction for tasks such as dumping, writing, and general interfacing with RKXXX devices.
